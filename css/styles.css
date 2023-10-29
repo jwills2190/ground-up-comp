@@ -1,13 +1,12 @@
 body {
     background-color: #365b71;
-    border: dashed orange;
     margin: 0;
 }
 
 .container {
-    width: 1400px;
+    max-width: 1400px;
     height: 50vh;
-    background-color: #fff;
+    background-color: #365b71;
     margin: 10px auto;
 
 }
@@ -15,27 +14,30 @@ body {
 nav {
     height: 100px;
     background-color: #3f210e;
-    height: 100px;
     padding: 10px;
+    margin: 50px 20px auto 20px;
+    border-radius: 20px;
+    
 }
 
 nav img {
     width: 200px;
-    
+
 }
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3f210e;
+    /* background-color: #365b71; */
     background-image: 
         linear-gradient(#3f210e, transparent), url(../images/ground-up-coffee-shop-2600x1300.jpg);
     background-size: cover;
-    height: 650px;
+    height: 600px;
     text-align: center;
     color: #fff;
-    
+    border-radius: 20px;
+    margin: -150px 20px auto 20px ;       
 
 }
 
@@ -43,8 +45,80 @@ h1 {
     margin: 0;
     padding: 0;
     font-size: 2.5rem;
+  }
+
+main {
+    background-color: #fff;
+    height: 200vh;
+    margin-top: -20px;
+  }
+
+h2 {
+    color: #6f320b;
+    text-transform: uppercase;
+    padding-top: 100px;
+    font-size: 25px;
+    text-align: center;
+}
+
+h3 {
+    color: #6f320b;
+    font-size: 40px;
+    margin-top: -10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.espresso {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin: -30px auto;
+  }
+
+p {
+    color: #944f23;
+    font-size: 23px;
+    margin: 40px auto;
+    display: flex;
+    
+}
+
+h4 {
+    color: #6f320b;
+    font-size: 30px;
+    margin-top: -10px;
+    font-weight: bold;
+
 
 }
+h4 + p {
+    display: flex;
+    justify-content: flex-end;
+    color: #6f320b;
+    font-size: 25px;
+}
+
+.align-right {
+    color: #6f320b;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 30px;
+}
+
+.images {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 30%;
+}
+
+.imagine {
+    display: flex;
+    margin-left: auto;
+    max-width: 30%;
+}
+
 
 
 
