@@ -1,16 +1,3 @@
-body {
-    background-color: #365b71;
-    margin: 0;
-}
-
-.container {
-    max-width: 1400px;
-    height: 50vh;
-    background-color: #365b71;
-    margin: 10px auto;
-
-}
-
 nav {
     height: 100px;
     background-color: #3f210e;
@@ -20,8 +7,20 @@ nav {
     
 }
 
+body {
+    background-color: #365b71;
+}
+
+/* .container { */
+    /* max-width: 1400px; */
+    /* height: 37vh; */
+    /* background-color: #365b71; */
+    /* margin: 10px auto; */
+/* }  */
+
 nav img {
     width: 200px;
+    margin: -20px auto auto 20px;
 
 }
 
@@ -42,21 +41,31 @@ header {
 }
 
 h1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
     font-size: 2.5rem;
+    text-align: center;
   }
 
 main {
     background-color: #fff;
-    height: 200vh;
-    margin-top: -20px;
+    height: 150vh;
+    margin-top: -30px;
+    border-radius: 20px;
   }
+
+.mydiv {
+    margin: 0;
+    display: flex;
+}
 
 h2 {
     color: #6f320b;
     text-transform: uppercase;
-    padding-top: 100px;
+    padding-top: 20px;
     font-size: 25px;
     text-align: center;
 }
@@ -68,7 +77,6 @@ h3 {
     font-weight: bold;
     text-align: center;
 }
-
 
 .espresso {
     width: 100px;
@@ -82,23 +90,36 @@ p {
     font-size: 23px;
     margin: 40px auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
     
 }
 
 h4 {
+    display: flex;
     color: #6f320b;
     font-size: 30px;
-    margin-top: -10px;
+    /* margin-top: 0; */
     font-weight: bold;
+    
+
+    
+}
+
+h4 p:first-child {
+    display: flex;
+    flex-direction: column;
 
 
 }
-h4 + p {
+/* p {
     display: flex;
     justify-content: flex-end;
     color: #6f320b;
     font-size: 25px;
-}
+} */
 
 .align-right {
     color: #6f320b;
