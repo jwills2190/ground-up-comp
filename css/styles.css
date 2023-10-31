@@ -57,9 +57,103 @@ main {
     border-radius: 20px;
   }
 
-.mydiv {
-    margin: 0;
+.parent-container {
+    background-color: gray;
+
+}
+
+.child-container {
     display: flex;
+    /* flex-flow: column wrap; */
+    justify-content: flex-start;
+    /* border: dashed orange; */
+    align-items: flex-end;
+    margin: 10px 0 10px auto;
+  
+}
+
+.child-container2 {
+    display: flex;
+    /* flex-flow: column-reverse wrap; */
+    flex-direction: row-reverse;
+    /* border: dashed orange; */
+    align-items: flex-start;
+    margin: 10px 0 10px auto;
+
+  
+}
+
+.child-container3 {
+    display: flex;
+    justify-content: flex-start;
+    /* border: dashed orange; */
+    align-items: flex-end;
+    margin: 10px 0 10px auto;
+  
+}
+
+.friendly {
+    display: flex;
+    align-self: flex-end;
+    color: #6f320b;
+    font-size: 3em;
+    font-weight: bold;
+    /* border: dashed green; */
+    max-width: 100%;
+    margin: 30px 0 10px 50px;
+
+}
+
+.comfortable {
+    display: flex;
+    align-self: flex-start;
+    color: #6f320b;
+    font-size: 3em;
+    font-weight: bold;
+    /* border: dashed green; */
+    max-width: 100%;
+    margin: 30px 0 10px 50px;
+}
+
+.freshly {
+    display: flex;
+    align-self: flex-end;
+    color: #6f320b;
+    font-size: 3em;
+    font-weight: bold;
+    /* border: dashed green; */
+    max-width: 100%;
+    margin: 30px 0 10px 50px;
+}
+
+.barista
+{
+    display: flex;
+    color: #944f23;
+    font-size: 2em;
+    max-width: 100%;
+    margin: 0px 100px 160px 50px;
+    /* border: dashed blue; */
+    
+    
+}
+.atmosphere {
+    display:flex;
+    justify-content: center;
+    color: #944f23;
+    font-size: 23px;
+    margin: 40px auto;
+    align-items: center;
+    padding: 0;
+    /* border: dashed red; */
+    margin-top: auto;
+}
+.roasted {
+    display: flex;
+    color: #944f23;
+    font-size: 2em;
+    max-width: 100%;
+    margin: 0px 100px 160px 50px;
 }
 
 h2 {
@@ -85,7 +179,7 @@ h3 {
     margin: -30px auto;
   }
 
-p {
+.hours {
     color: #944f23;
     font-size: 23px;
     margin: 40px auto;
@@ -93,33 +187,9 @@ p {
     justify-content: center;
     align-items: center;
     padding: 0;
-
-    
+  
 }
 
-h4 {
-    display: flex;
-    color: #6f320b;
-    font-size: 30px;
-    /* margin-top: 0; */
-    font-weight: bold;
-    
-
-    
-}
-
-h4 p:first-child {
-    display: flex;
-    flex-direction: column;
-
-
-}
-/* p {
-    display: flex;
-    justify-content: flex-end;
-    color: #6f320b;
-    font-size: 25px;
-} */
 
 .align-right {
     color: #6f320b;
@@ -130,14 +200,19 @@ h4 p:first-child {
 
 .images {
     display: flex;
-    justify-content: flex-start;
+    align-self: flex-start;
     max-width: 30%;
+    /* border: dashed salmon; */
+    padding: 5px;
 }
 
 .imagine {
     display: flex;
-    margin-left: auto;
+    align-self: flex-end;
     max-width: 30%;
+    /* border: dashed salmon; */
+    margin: auto 0 auto 50px;
+    padding: 5px;
 }
 
 
