@@ -1,78 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ground Up Coffee</title>
+    <title>Ground Up Coffee Shop</title>
     <link href="css/styles.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster&family=Open+Sans:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div>
+    
+    <div class="container">
+
         <nav>
-            <img src="images/ground-up-coffee-logo.svg" alt="Ground Up Coffee Logo">
+            <img src="images/ground-up-coffee-logo.svg" alt="ground up coffee shop logo">
         </nav>
 
         <header>
-            <h1 >No highfalutin coffee snobbery, just good coffee</h1>
+            <h1>No highfalutin coffee snobbery, just good coffee</h1>
         </header>
-    </div>
-    <div class="parent-container">
 
         <main>
 
-            <h2>Your Friendly Neighborhood</h2>
+            <div>
+                <h2>your friendly neighborhood<br><span>
+                    Coffee Shop in Williamsburg, Brooklyn</span></h2>
+                <img src="images/espresso-machine.svg" class="little-svg">
+            </div>
 
-            <h3>Coffee Shop in Williamsburg, Brooklyn</h3>
-
-            <img class="espresso" src="images/espresso-machine.svg" alt="Espresso Machine">
-
-            <div class="hours">Open Daily 7am -8pm</div>
-
-
-
-            <div class="child-container">
-                <img class="images" src="images/cappuccino-foam-heart.png" alt="Cappuccino with a foam heart">
-
+            <section>
+                <img src="images/cappuccino-foam-heart.png" 
+                     alt="Cappuccino with a foam heart">
                 <div>
-                    <h4 class="friendly">Friendly & knowledgeable baristas</h4>
-                    <div class="barista">
+                    <h3>Friendly & knowledgeable baristas</h3>
+                    <p>
                         Whether you have a favorite drink you want prepared a specific way, or you're new to coffee and would like recommendations... our baristas are here to help. Feel free to ask questions, or tell them exactly what you want so they can prepare the perfect drink for you.
-                    
-                    </div>
+                    </p>
                 </div>
-            </div>
-            
-            
+            </section>
 
-            <div class="child-container2">
-                <img class="imagine" src="images/sidewalk-w-chalkboard.png" alt="Sidewalk Sign">
-
+            <section>
+                <img src="images/sidewalk-w-chalkboard.png" 
+                     alt="Sidewalk Sign">
                 <div>
-                    <h4 class="comfortable">Comfortable, laid-back atmosphere</h4>
-                    <div class="atmosphere">
+                    <h3>Comfortable, laid-back atmosphere</h3>
+                    <p>
                         Take your time and enjoy your latte or drink of choice. Having good conversations with friends or a productive business meeting over a great cup of joe. We won't rush you out.
-                    </div>
+                    </p>
                 </div>
-            </div>
+            </section>
 
-
-            <div class="child-container3">
-                
-                <img class="images" src="images/coffee-beans.png" alt="Coffee Beans">
+            <section>
+                <img src="images/coffee-beans.png" alt="Coffee Beans">
                 <div>
-                    <h4 class="freshly">Freshly roasted coffee beans</h4>
-
-                    <div class="roasted">
+                    <h3>Freshly roasted coffee beans</h3>
+                    <p>
                         We get fresh coffee bean shipments directly from sustainable growers. Then we roast them in-house for optimum freshness. Don't settle for stale old coffee.
-                    </div>
+                    </p>
+                </div>
+            </section>
+
+            <img src="images/coffee-shop-sign.svg"
+            alt="coffee shop sign icon" class="little-svg">
+
+
+            <div class="food-drink-wrapper">
+                <div class="drink">
+                    <h4>Drink Menu</h4>
+                </div>
+                <div class="food">
+                    <h4>Food Menu</h4>
                 </div>
             </div>
 
         </main>
+
+        <footer>
+
+            <!-- flex, 3 child tags 
+                left: tel
+                mid:  address
+                      social (svgs in Slack)
+                        facebook
+                        twitter
+                      copyright 
+                right: email 
+             -->
+                
+        </footer>
+
+
     </div>
+
 </body>
+
 </html>

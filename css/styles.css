@@ -215,6 +215,11 @@ h3 {
     padding: 5px;
 }
 
+/* target the 4d child that is also a section in main to revers img-text positions nth-child(3) means 3rd child of parent, which is mean which goes: div, sect, sect, sect so the 3rd child is the 2nd section 
+
+main section:nth-child(3) {
+    flex-direction: row-reverse;
+}*/
 
 
 
